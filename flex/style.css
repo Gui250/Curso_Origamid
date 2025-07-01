@@ -1,0 +1,15 @@
+.flex {
+  display: flex;
+  gap: 20px;
+}
+
+h2 {
+  background-color: #e7e7e7;
+  border: 1px solid #d7d7d7;
+  padding: 20px;
+  margin: 0px;
+  flex-grow: 1; /* Aumenta o tamanho do elemento */
+  flex-basis: 0; /* Não tenta aumentar a palavra */
+  flex-shrink: 0; /* Não tenta diminuir a palavra */
+  flex: 1; /* Mesmo que as 3 propriedades acima, flex-grow, flex-shrink e flex-basis */
+}
